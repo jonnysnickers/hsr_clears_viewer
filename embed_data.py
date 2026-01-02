@@ -3,8 +3,8 @@ import json
 from pathlib import Path
 
 CSV_FILE = "data.csv"
-TEMPLATE_FILE = "template.html"
-OUTPUT_FILE = "index.html"
+TEMPLATE_FILE = "index.html"
+OUTPUT_FILE = "index_with_data.html"
 
 def main():
     # Read CSV safely
